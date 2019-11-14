@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html {	
+   height:100%;
+   width:100%;
+   
+}
+body{
+	
+	height: 100%;
+	width: 100%;
+	background-image: url(images/cover1.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+.container3{
+	margin-top: 190px;
+	text-align: center;
+	color: white;
+}
+
+p{
+	color: white;
+	text-align: center;
+	font-size: 35px;
+}	
+
+#footer{
+	position: relative;
+	text-align: center;
+	margin-top: 200px;
+	height: 10px;
+	padding-top:12px;
+	clear: both;
+	width: 100%
+}	
+	

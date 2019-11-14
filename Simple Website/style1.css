@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100vh;
+	width: 100vw;
+}
+
+body{
+	
+	background-color: #f4e7d0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+}
+
+	
+h1{
+	text-align: center;
+	font-family: 'Tangerine', cursive;
+	font-size:55px;
+	background-image: url(images/1.jpg);
+}
+.nav{
+	display: flex;
+	flex: 1;
+	text-align: center;
+}
+
+	
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}	
+nav ul li{
+	display: flex;
+	text-decoration: none;
+	width: 100%;
+	height: 20px;
+	background-image: url(images/1.jpg);
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+nav ul li a{
+	display: inline-block;
+	flex: 1;
+	text-decoration: none;
+	color: black;
+}
+.gallery-content{
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+    justify-content: start;
+	flex-wrap: wrap;	
+	margin: auto;
+	padding: 10px;
+    position: center;
+}
+img{
+	margin: 25px 25px 25px 70px;
+	position: center;
+	border: solid black 4px;
+}
+#work pic{
+    display: flex;
+	flex: 1;
+	box-sizing: border-box;
+	flex-basis: 11%;
+	order: 3;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid black;
+}
+#work pic2{
+    display: flex;
+	flex: 1;
+	box-sizing: border-box;
+	flex-basis: 11%;		
+    order: 2;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid #000000;
+}
+
+#work pic3{
+    display: flex;
+	flex: 1;
+	box-sizing: border-box;
+	flex-basis: 11%;
+	order: 1;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid #000000;
+}
+	
+#work pic4{
+    display: flex;
+	flex: 1;
+	box-sizing: border-box;
+	flex-basis: 11%;
+	order: 4;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid #000000;
+}
+
+#work pic5{
+    display: flex;
+	flex: 1;
+	box-sizing: border-box;
+	flex-basis: 11%;
+	order: 5;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid #000000;
+}
+
+#work pic6{
+    display: flex;
+	flex: 1;
+	box-sizing: border-box;
+	flex-basis: 11%;
+	order: 7;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid #000000;
+}
+
+#work pic7{
+    display: flex;
+	flex: 1;
+	box-sizing: border-box;
+	flex-basis: 11%;
+	order: 6;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid #000000;
+}
+#work pic8{
+    display: flex;
+	flex: 1;
+	box-sizing: border-box;
+	flex-basis: 11%;
+	order: 3;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid #000000;
+}
+#work pic9{
+    display: flex;
+	flex: 1;
+	box-sizing: border-box;
+	flex-basis: 11%;
+	order: 3;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid #000000;
+}
+#work pic10{
+    display: flex;
+	flex: 1;
+	box-sizing: border-box;
+	flex-basis: 11%;
+	order: 3;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid black;
+}
+#footer2{
+	background-image: url(images/1.jpg);
+	text-align: center;
+	height: 10px;
+	padding-top: 12px;
+}
