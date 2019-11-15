@@ -8,11 +8,17 @@ html {
    transition: all 4s ease;
    animation: fadeIn 4s;
 }
+
+body, html {
+    min-height: 100%;
+}
+
+
 body{
 	height: 100%;
 	width: 100%;
 	background-image: url(images/cover1.jpg);
-	background-size: 100%;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;	
 }
